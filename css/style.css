@@ -1,0 +1,221 @@
+
+@font-face {
+	font-family: 'proxima_nova_rgbold';
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	position: relative;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	font-family: Roboto, "proxima_nova_rgbold";
+}
+
+.text-caption{
+	position: absolute;
+	width: 569px;
+	height: 121px;
+	left: 474px;
+	top: 656px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 173.19%;
+	letter-spacing: -0.015em;
+	color: #FFFFFF;
+}
+
+.coming-soon-container{
+	position: absolute;
+	width: 1054px;
+	height: 524px;
+	left: 474px;
+	top: 339px;
+}
+
+.coming-soon{
+	position: absolute;
+	font-family: "proxima_nova_rgbold";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 144px;
+	line-height: 144px;
+	letter-spacing: -0.015em;
+	color: #FFFFFF;
+}
+
+.contact{
+	position: absolute;
+	width: 92px;
+	height: 19px;
+	top: 62px;
+	left: 1825px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.18em;
+	color: #9B9B9B;
+	transform: rotate(90deg);
+}
+
+.cursor{
+	position: absolute;
+	left: 9.11%
+	right: 89.95%;
+	top: 15%;
+	bottom: 83.62%;
+	background: #FF7A00;
+	transform: matrix(0.76, 0.61, -0.68, 0.77, 0, 0);
+}
+
+.facebook{
+	position: absolute;
+	left: 3.31%;
+	right: 96.1%;
+	top: 79.07%;
+	bottom: 18.85%;
+}
+
+.facebook-container{
+	position: absolute;
+	left: 63.6px;
+	top: 854px;
+	width: 11.2px;
+	height: 22.4px;
+}
+
+.instagram{
+	position: absolute;
+	left: 26.47%;
+	right: 26.47%;
+	top: 26.6%;
+	bottom: 26.33%;
+}
+
+.instagram-container{
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	left: 54px;
+	top: 919.7px;
+}
+
+.linkedin{
+	position: absolute;
+	left: 20%;
+	right: 205;
+	top: 20%;
+	bottom: 26.73%;
+}
+
+.linkedin-container{
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	left: 54px;
+	top: 980.7px;
+}
+.earth{
+	position: absolute;
+	width: 282px;
+	height: 36px;
+	left: 474px;
+	top: 985px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 35px;
+	color: #8FFF00;
+}
+
+.orange{
+	color: #FF7A00;
+}
+
+.green{
+	color: #8FFF00;
+}
+
+.hashtag{
+	position: absolute;
+	width: 282px;
+	height: 36px;
+	left: 474px;
+	top: 985px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 35px;
+	color: #FFFFFF;
+}
+
+.hashtag-container{
+	position: absolute;
+	width: 282px;
+	height: 36px;
+	left: 474px;
+	top: 985px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 35px;
+}
+
+.scroll-line{
+	position: absolute;
+	width: 0px;
+	height: 60px;
+	left: 1862px;
+	top: 958px;
+	border: 2px solid #FF7A00;
+}
+
+.scroll-text{
+	position: absolute;
+	width: 76px;
+	height: 19px;
+	left: 1825px;
+	top: 863px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.18em;
+	color: #9B9B9B;
+	transform: rotate(90deg);
+}
+
+.logo-container{
+	position: absolute;
+	width: 77.33px;
+	height: 73.69px;
+	top: 67px;
+	left: 51.61px;
+}
+
+.logo{
+	width: 77.33px;
+	height: 73.69px;
+	
+}
+
