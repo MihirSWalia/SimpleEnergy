@@ -1,0 +1,910 @@
+
+@font-face {
+	font-family: 'proxima_nova_rgbold';
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+		position: relative;
+		width: 1000px;
+		height: 900px;
+		font-family: Roboto, "proxima_nova_rgbold";
+	}
+
+	.text-caption{
+		position: absolute;
+		width: 951px;
+		height: 121px;
+		left: 447px;
+		top: 655px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		text-align: center;
+		line-height: 173.19%;
+		letter-spacing: -0.015em;
+		color: #FFFFFF;
+	}
+
+	.coming-soon-container{
+		position: absolute;
+		width: 596px;
+		height: 524px;
+		left: 624px;
+		top: 302px;
+	}
+
+	.coming-soon{
+		position: absolute;
+		font-family: "proxima_nova_rgbold";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 144px;
+		text-align: center;
+		line-height: 144px;
+		letter-spacing: -0.015em;
+		color: #FFFFFF;
+	}
+
+	.contact{		
+		position: absolute;
+		width: 120px;
+		height: 19px;
+		top: 98px;
+		left: 1799px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+		letter-spacing: 0.18em;
+		color: #9B9B9B;
+		transform: rotate(90deg);
+	}
+
+	.button-contact{
+		background-color: #0F1315;
+		border: none;
+		color: #9B9B9B;
+		padding: 0px 0px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 0px 0px;
+		cursor: pointer;
+	}
+
+	.dot{
+		height: 13px;
+		width: 13px;
+		background-color: #E16D03;
+		border-radius: 50%;
+		display: inline-block;
+	}
+
+	.hide-input{
+		display: none;
+	}
+
+	.facebook-container{
+		position: absolute;
+		width: 32px;
+		height: 32px;
+		left: 54px;
+		top: 803px;
+	}
+
+	.facebook{
+		position: absolute;
+		width: 8.8px;
+		height: 17.6px;
+		left: 37.5%;
+		top: 25%;
+	}
+
+	.instagram{
+		position: absolute;
+		left: 26.47%;
+		top: 26.6%;	
+	}
+
+	.instagram-container{
+		position: absolute;
+		width: 32px;
+		height: 32px;
+		left: 54px;
+		top: 863.7px;
+	}
+
+	.linkedin{
+		position: absolute;
+		left: 20%;
+		top: 20%;
+	}
+
+	.linkedin-container{
+		position: absolute;
+		width: 32px;
+		height: 32px;
+		left: 54px;
+		top: 924.7px;
+	}
+
+	.orange{
+		color: #FF7A00;
+	}
+
+	.green{
+		color: #8FFF00;
+	}
+
+	.hashtag{
+		position: absolute;
+		width: 282px;
+		height: 36px;
+		left: 781px;
+		top: 926px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 30px;
+		line-height: 35px;
+		color: #FFFFFF;
+	}
+
+	.hashtag-container{
+		position: absolute;
+		width: 282px;
+		height: 36px;
+		left: 781px;
+		top: 985px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+	.scroll-line{
+		position: absolute;
+		width: 0px;
+		height: 60px;
+		left: 1862px;
+		top: 902px;
+		border: 2px solid #FF7A00;
+	}
+
+	.scroll-text{
+		position: absolute;
+		width: 76px;
+		height: 19px;
+		left: 1825px;
+		top: 807px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+		letter-spacing: 0.18em;
+		color: #9B9B9B;
+		transform: rotate(90deg);
+	}
+
+	.logo-container{
+		position: absolute;
+		width: 77.33px;
+		height: 73.69px;
+		top: 67px;
+		left: 51.61px;
+	}
+
+	.logo{
+		width: 77.33px;
+		height: 73.69px;	
+	}
+
+/*iphone SE*/
+
+@media only screen and (width: 320px){
+	
+	body{
+		width: 320px;
+		height: 568px;
+		font-family: Roboto, "proxima_nova_rgbold";
+	}
+
+	.logo-container{
+		position: absolute;
+		width: 38px;
+		height: 38px;
+		left: 22px;
+		top: 25px;
+	}
+
+	.logo{
+		position: absolute;
+		width: 38px;
+		height: 38px;
+	}
+
+	.contact{
+		position: absolute;
+		width: 65px;
+		height: 12px;
+		left: 230px;
+		top: 40px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 10px;
+		line-height: 12px;
+		letter-spacing: 0.18em;
+		color: #9B9B9B;
+		transform: rotate(90deg);
+	}
+
+	.button-contact{
+		background-color: #0F1315;
+		border: none;
+		color: #9B9B9B;
+		padding: 0px 0px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		margin: 0px 0px;
+		cursor: pointer;
+	}
+
+	.dot{
+		height: 10px;
+		width: 10px;
+		background-color: #E16D03;
+		border-radius: 50%;
+		display: inline-block;
+	}
+
+	.coming-soon-container{
+		position: absolute;
+		width: 156px;
+		height: 59px;
+		left: 82px;
+		top: 179px;
+
+		font-family: "proxima_nova_rgbold";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 38px;
+		line-height: 38px;
+		text-align: center;
+		letter-spacing: -0.015em;
+		color: #FFFFFF;
+	}
+
+	.coming-soon{
+		position: absolute;
+		font-family: "proxima_nova_rgbold";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 38px;
+		text-align: center;
+		line-height: 38px;
+		letter-spacing: -0.015em;
+		color: #FFFFFF;
+	}
+
+	.text-caption{
+		position: absolute;
+		width: 279px;
+		height: 121px;
+		left: 22px;
+		top: 269px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		line-height: 173.19%;
+		text-align: center;
+		letter-spacing: -0.015em;
+		color: #FFFFFF;
+	}
+
+	.hashtag{
+		position: absolute;
+		width: 320px;
+		height: 13px;
+		left: 0px;
+		top: 323px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 11px;
+		line-height: 13px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+	.facebook-container{
+		position: absolute;
+		width: 18px;
+		height: 18px;
+		left: 261px;
+		top: 451px;
+	}
+
+	.facebook{
+		position: absolute;
+		width: 4.95px;
+		height: 9.9px;
+		left: 267.75px;
+		top: 455.5px;
+	}
+
+	.instagram-container{
+		position: absolute;
+		width: 18px;
+		height: 18px;
+		left: 38px;
+		top: 451px;
+	}
+
+	.instagram{
+		position: absolute;
+		left: 25%;
+		top: 25.94%;
+		height: 8.47px;
+		width: 8.47px;
+	}
+
+	.linkedin-container{
+		position: absolute;
+		width: 18px;
+		height: 18px;
+		left: 151px;
+		top: 451px;
+	}
+
+	.linkedin{
+		position: absolute;
+		width: 10.03px;
+		height: 9.59px;
+		left: 20%;
+		top: 20%;
+	}
+
+	.arrow{
+		position: absolute;
+		left: 275px;
+		top: 83px;
+		width: 7.53px;
+		height: 6.26px;
+		transform: matrix(-0.76, 0.61, 0.68, 0.77, 0, 0);
+	}
+
+	.scroll-line{
+		display: none;
+	}
+
+	.scroll-text{
+		display: none;
+	}
+}
+
+/*Android1*/
+
+@media only screen and (width: 360px){
+	body{
+		width: 360px;
+		height: 640px;
+		font-family: Roboto, "proxima_nova_rgbold";
+	}
+
+	.logo-container{
+		position: absolute;
+		width: 38px;
+		height: 38px;
+		left: 22px;
+		top: 25px;
+	}
+
+	.logo{
+		position: absolute;
+		width: 38px;
+		height: 38px;
+	}
+
+	.contact{
+		position: absolute;
+		width: 58px;
+		height: 12px;
+		left: 260px;
+		top: 50px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 10px;
+		line-height: 12px;
+		letter-spacing: 0.18em;
+		color: #9B9B9B;
+		transform: rotate(90deg);
+	}
+
+	.coming-soon-container{
+		position: absolute;
+		width: 179px;
+		height: 59px;
+		left: 90px;
+		top: 245px;
+
+		font-family: "proxima_nova_rgbold";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		line-height: 40px;
+		text-align: center;
+		letter-spacing: -0.015em;
+		color: #FFFFFF;
+	}
+
+	.coming-soon{
+		position: absolute;
+		font-family: "proxima_nova_rgbold";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		text-align: center;
+		line-height: 40px;
+		letter-spacing: -0.015em;
+		color: #FFFFFF;
+	}
+
+	.text-caption{
+		position: absolute;
+		width: 295px;
+		height: 121px;
+		left: 38px;
+		top: 353px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		line-height: 173.19%;
+		text-align: center;
+		letter-spacing: -0.015em;
+		color: #FFFFFF;
+	}
+
+	.hashtag{
+		position: absolute;
+		width: 320px;
+		height: 13px;
+		left: 20px;
+		top: 430px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 11px;
+		line-height: 13px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+	.facebook-container{
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		left: 250px;
+		top: 452px;
+	}
+
+	.facebook{
+		position: absolute;
+		width: 4.4px;
+		height: 8.8px;
+		left: 272.6px;
+		top: 515.2px;
+	}
+
+	.instagram-container{
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		left: 48px;
+		top: 512px;
+	}
+
+	.instagram{
+		position: absolute;
+		left: 20%;
+		top: 20%;
+		height: 7.53px;
+		width: 7.53px;
+	}
+
+	.linkedin-container{
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		left: 152px;
+		top: 512px;
+	}
+
+	.linkedin{
+		position: absolute;
+		width: 8.92px;
+		height: 8.52px;
+		left: 20%;
+		top: 20%;
+	}
+
+	.arrow{
+		position: absolute;
+		left: 87.78%;
+		top: 14.61%;
+		width: 7.53px;
+		height: 6.26px;
+		transform: matrix(-0.76, 0.61, 0.68, 0.77, 0, 0);
+	}
+
+	.scroll-line{
+		display: none;
+	}
+
+	.scroll-text{
+		display: none;
+	}
+}
+
+/*Pixel 2 XL*/
+
+@media only screen and (width: 411px){
+	body{
+		width: 411px;
+		height: 823px;
+		font-family: Roboto, "proxima_nova_rgbold";
+	}
+
+	.logo-container{
+		position: absolute;
+		width: 38px;
+		height: 38px;
+		left: 22px;
+		top: 25px;
+	}
+
+	.logo{
+		position: absolute;
+		width: 38px;
+		height: 38px;
+	}
+
+	.contact{
+		position: absolute;
+		width: 58px;
+		height: 12px;
+		left: 260px;
+		top: 50px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 10px;
+		line-height: 12px;
+		letter-spacing: 0.18em;
+		color: #9B9B9B;
+		transform: rotate(90deg);
+	}
+
+	.coming-soon-container{
+		position: absolute;
+		width: 179px;
+		height: 59px;
+		left: 116px;
+		top: 352px;
+
+		font-family: "proxima_nova_rgbold";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		line-height: 40px;
+		text-align: center;
+		letter-spacing: -0.015em;
+		color: #FFFFFF;
+	}
+
+	.coming-soon{
+		position: absolute;
+		font-family: "proxima_nova_rgbold";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		text-align: center;
+		line-height: 40px;
+		letter-spacing: -0.015em;
+		color: #FFFFFF;
+	}
+
+	.text-caption{
+		position: absolute;
+		width: 311px;
+		height: 121px;
+		left: 50px;
+		top: 460px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 173.19%;
+		text-align: center;
+		letter-spacing: -0.015em;
+		color: #FFFFFF;
+	}
+
+	.hashtag{
+		position: absolute;
+		width: 320px;
+		height: 13px;
+		left: 46px;
+		top: 533px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 11px;
+		line-height: 13px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+	.facebook-container{
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		left: 250px;
+		top: 452px;
+	}
+
+	.facebook{
+		position: absolute;
+		width: 4.4px;
+		height: 8.8px;
+		left: 272.6px;
+		top: 515.2px;
+	}
+
+	.instagram-container{
+		position: absolute;
+		width: 22px;
+		height: 22px;
+		left: 71px;
+		top: 722px;
+	}
+
+	.instagram{
+		position: absolute;
+		left: 25%;
+		top: 25.94%;
+		height: 10.35px;
+		width: 10.35px;
+	}
+
+	.linkedin-container{
+		position: absolute;
+		width: 22px;
+		height: 22px;
+		left: 195px;
+		top: 724px;
+	}
+
+	.linkedin{
+		position: absolute;
+		width: 22px;
+		height: 22px;
+		left: 20%;
+		top: 20%;
+	}
+
+	.arrow{
+		position: absolute;
+		left: 87.78%;
+		top: 14.61%;
+		width: 7.53px;
+		height: 6.26px;
+		transform: matrix(-0.76, 0.61, 0.68, 0.77, 0, 0);
+	}
+
+	.scroll-line{
+		display: none;
+	}
+
+	.scroll-text{
+		display: none;
+	}
+}
+
+/*iPad pro 11*/
+
+@media only screen and (width: 834px){
+	body{
+		width: 834px;
+		height: 1194px;
+		font-family: Roboto, "proxima_nova_rgbold";
+	}
+
+	.logo-container{
+		position: absolute;
+		width: 66px;
+		height: 66px;
+		left: 55px;
+		top: 55px;
+	}
+
+	.logo{
+		position: absolute;
+		width: 66px;
+		height: 66px;
+	}
+
+	.contact{
+		position: absolute;
+		width: 58px;
+		height: 12px;
+		left: 739px;
+		top: 72px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 21px;
+		letter-spacing: 0.18em;
+		color: #9B9B9B;
+		transform: rotate(90deg);
+	}
+
+	.coming-soon-container{
+		position: absolute;
+		width: 462px;
+		height: 59px;
+		left: 186px;
+		top: 466px;
+
+		font-family: "proxima_nova_rgbold";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 96px;
+		line-height: 96px;
+		text-align: center;
+		letter-spacing: -0.015em;
+		color: #FFFFFF;
+	}
+
+	.coming-soon{
+		position: absolute;
+		font-family: "proxima_nova_rgbold";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 96px;
+		text-align: center;
+		line-height: 96px;
+		letter-spacing: -0.015em;
+		color: #FFFFFF;
+	}
+
+	.text-caption{
+		position: absolute;
+		width: 696px;
+		height: 121px;
+		left: 69px;
+		top: 687px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 173.19%;
+		text-align: center;
+		letter-spacing: -0.015em;
+		color: #FFFFFF;
+	}
+
+	.hashtag{
+		position: absolute;
+		width: 320px;
+		height: 29px;
+		left: 257px;
+		top: 834px;
+
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 24px;
+		line-height: 28px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+	.facebook-container{
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		left: 250px;
+		top: 452px;
+	}
+
+	.facebook{
+		position: absolute;
+		width: 17.32px;
+		height: 34.65px;
+		left: 718px;
+		top: 1039.59px;
+	}
+
+	.instagram-container{
+		position: absolute;
+		width: 49px;
+		height: 50px;
+		left: 97px;
+		top: 1032px;
+	}
+
+	.instagram{
+		position: absolute;
+		left: 25%;
+		top: 25.94%;
+		height: 23.53px;
+		width: 23.06px;
+	}
+
+	.linkedin-container{
+		position: absolute;
+		width: 49px;
+		height: 49px;
+		left: 392px;
+		top: 1037px;
+	}
+
+	.linkedin{
+		position: absolute;
+		width: 27.32px;
+		height: 26.1px;
+		left: 20%;
+		top: 20%;
+	}
+
+	.arrow{
+		position: absolute;
+		left: 87.78%;
+		top: 14.61%;
+		width: 7.53px;
+		height: 6.26px;
+		transform: matrix(-0.76, 0.61, 0.68, 0.77, 0, 0);
+	}
+
+	.scroll-line{
+		display: none;
+	}
+
+	.scroll-text{
+		display: none;
+	}
+}

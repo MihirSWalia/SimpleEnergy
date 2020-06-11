@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Single Energy Coming Soon...</title>
-    
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
+    <title>Simple Energy Coming Soon...</title>
+
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    <style @font type="text/css"></style>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body style="background-color: #0F1315">
@@ -27,14 +27,29 @@
     <p class="coming-soon">COMING SOON.</p>
     <source src="media/bgvid.mp4" type="video/mp4" class="coming-soon"/>
 </div>
+<!--
+<div class="video-bg">
+    <video controls autoplay>
+        
+    </video>
+</div>
+-->
 
 <!--TEXT-->
+<input type="text" value="Invesmtment@simpleenergy.in" id="myInput" class="hide-input" >
+<script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0,99999)
+  document.execCommand("copy");
+  alert("Copied the text: " + copyText.value);
+}
+</script>
 
-    <p class="contact">CONTACT</p>
+    <button onclick="myFunction()" class="button-contact contact">CONTACT <span class="dot"></span></button> 
+
     <p class="text-caption">'It is nimble unlike any other, it is poised as many would ever dream to be. It is boldly <span class="orange">Simple</span> and it is remarkably electric.'</p>
-    <div class="hashtag-container">
-        <p>#planetearthmatters</p>
-    </div>
     <p class="hashtag">#planet<span class="green">earth</span>matters</p>
 
     <p class="scroll-text">
@@ -44,23 +59,23 @@
 
 <!--SOCIAL-->
 
-    <a href="">
-        <img class="facebook" src="media/fb.png">
-    </a>
     
+    <div class="facebook-container">
+        <a href="https://m.facebook.com/Simple-Energy-101417191592969/?__tn__=HH-R">
+            <img class="facebook" src="media/fb.png">
+        </a>
+    </div>
     <div class="instagram-container">
-        <a href="">
+        <a href="https://instagram.com/simplenergy_ev?igshid=147ji4bty5m1h">
             <img class="instagram" src="media/insta.png">
         </a>
     </div>
     <div class="linkedin-container">
-        <a href="">
+        <a href="https://www.linkedin.com/company/simple-energy-pvt-ltd">
             <img class="linkedin" src="media/linkedin.png">
         </a>
     </div>
-    
 
 </body>
-
 
 </html>
